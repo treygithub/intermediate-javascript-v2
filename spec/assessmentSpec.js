@@ -143,7 +143,7 @@ describe('RoadTrip', function() {
     expect(new RoadTrip()).toEqual(jasmine.any(Object));
   })
 
-  it('should have a method called eat', function() {
+  it('should have a method called drive', function() {
     expect(new RoadTrip().drive).toEqual(jasmine.any(Function));
   })
 
